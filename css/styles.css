@@ -101,7 +101,7 @@ a:hover {
 }
 
 #moreProjectsList {
-   margin: 7%;
+   margin: 7% auto;
 }
 
 .about-text p {
