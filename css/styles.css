@@ -337,6 +337,10 @@ thead {
    .icon4 {
       padding-left: 42%;
    }
+   
+   html {
+      position: relative;
+   }
 }
 
 .flickr-icon-hover:hover .flickrToggle {
