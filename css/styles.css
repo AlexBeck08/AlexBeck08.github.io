@@ -58,7 +58,7 @@ a:hover {
 }
 
 .header-section {
-   margin: 5%;
+   margin: 5% auto;
    font-size: 3rem;
    font-family: "Indie Flower", cursive;
 }
@@ -322,6 +322,20 @@ thead {
 
    #moreProjectsList {
       margin: 7% 0;
+   }
+}
+
+@media (min-width: 1200px) {
+   .icon2 {
+      padding-left: 14%;
+   }
+
+   .icon3 {
+      padding-left: 28%;
+   }
+
+   .icon4 {
+      padding-left: 42%;
    }
 }
 
