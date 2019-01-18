@@ -303,7 +303,26 @@ thead {
 }
 
 .tab-content {
-   width: 80%;
+   /* width: 80%; */
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+@media (max-width: 767px) {
+   .tab-content {
+      font-size: .85rem;
+   }
+
+   .list-group {
+      width: 55%;
+      margin: auto;
+      padding-left: 0;
+      margin-bottom: 5%;
+   }
+
+   #moreProjectsList {
+      margin: 7% 0;
+   }
 }
 
 .flickr-icon-hover:hover .flickrToggle {
