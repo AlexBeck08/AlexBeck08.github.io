@@ -6,6 +6,9 @@ button:focus {
    outline: 0;
 }
 
+.list-group-item {
+   text-align: center;
+}
 .container-fluid {
    padding-left: 0;
    padding-right: 0;
