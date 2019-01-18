@@ -3,7 +3,7 @@ a {
 }
 
 html {
-   position: absolute;
+   position: relative;
 }
 
 .container-fluid {
@@ -336,10 +336,6 @@ thead {
 
    .icon4 {
       padding-left: 42%;
-   }
-   
-   html {
-      position: relative;
    }
 }
 
