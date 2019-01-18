@@ -73,28 +73,6 @@ a:hover {
    ;
 }
 
-@media (max-width: 992px) {
-   .icon2, .icon3, .icon4 {
-      padding-left: 0;
-   }
-
-   .header-section {
-      margin: 5% auto;
-      text-align: center;
-   }
-}
-
-@media (max-width: 767px) {
-   .footerIconGroup {
-      display: block;
-      margin: auto;
-   }
-
-   .footerLinks {
-      padding: 10px 15px;
-   }
-}
-
 /* About */
 .alex-image {
    width: 80%;
@@ -305,6 +283,20 @@ thead {
    padding-right: 5%;
 }
 
+.flickr-icon-hover:hover .flickrToggle {
+   background: #fff;
+   background: linear-gradient(#fefefe, #d6dde1);
+}
+
+.flickr-icon-hover:hover .flickrToggle::before,
+.flickr-icon-hover:hover .flickrToggle::after {
+   background: #5c82c1;
+}
+
+.flickr-icon-hover:hover .flickrToggle::after {
+   background: #f92f93;
+}
+
 @media (max-width: 767px) {
    .tab-content {
       font-size: .85rem;
@@ -340,16 +332,24 @@ thead {
    }
 }
 
-.flickr-icon-hover:hover .flickrToggle {
-   background: #fff;
-   background: linear-gradient(#fefefe, #d6dde1);
+@media (max-width: 992px) {
+   .icon2, .icon3, .icon4 {
+      padding-left: 0;
+   }
+
+   .header-section {
+      margin: 5% auto;
+      text-align: center;
+   }
 }
 
-.flickr-icon-hover:hover .flickrToggle::before,
-.flickr-icon-hover:hover .flickrToggle::after {
-   background: #5c82c1;
-}
+@media (max-width: 767px) {
+   .footerIconGroup {
+      display: block;
+      margin: auto;
+   }
 
-.flickr-icon-hover:hover .flickrToggle::after {
-   background: #f92f93;
+   .footerLinks {
+      padding: 10px 15px;
+   }
 }
