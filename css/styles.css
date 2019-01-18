@@ -1,0 +1,294 @@
+a {
+   color: #000;
+}
+
+body {
+   font-family: 'Raleway', sans-serif;
+   line-height: 2;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+.project-description {
+   width: 50%;
+   line-height: 2;
+}
+
+.about-section-one {
+   margin-bottom: 7%;
+}
+
+.section-heading {
+   padding: 7%;
+   text-align: center;
+   font-size: 3rem;
+}
+
+#about {
+   padding-bottom: 7%;
+}
+
+.colored-section {
+   background-color: #03396c;
+   color: #fff;
+   padding-bottom: 5%;
+}
+
+/* navbar */
+.navbar-brand {
+   font-size: 1.6rem;
+}
+
+/* header section */
+.header-icon {
+   margin-right: 20px
+}
+
+.header-section {
+   margin: 5%;
+   font-size: 3rem;
+   font-family: "Indie Flower", cursive;
+}
+
+.icon2 {
+   padding-left: 10%;
+}
+
+.icon3 {
+   padding-left: 20%;
+}
+
+.icon4 {
+   padding-left: 30%;
+   ;
+}
+
+@media (max-width: 992px) {
+   .icon2, .icon3, .icon4 {
+      padding-left: 0;
+   }
+
+   .header-section {
+      margin: 5% auto;
+      text-align: center;
+   }
+}
+
+/* About */
+.alex-image {
+   width: 80%;
+   height: auto;
+}
+
+.about-image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.about-text {
+   text-align: center;
+   padding: 5%;
+   margin: 5%;
+   line-height: 2;
+}
+
+.tab-content {
+   text-align: center;
+}
+
+#moreProjectsList {
+   margin: 7%;
+}
+
+.about-text p {
+   padding: 4%;
+}
+
+table {
+   text-align: center;
+   border: none;
+}
+
+thead {
+   background-color: #03396c;
+   color: #fff;
+}
+
+.th-icon {
+   padding-right: 15px;
+   visibility: hidden;
+}
+
+.coin-icon {
+   color: #9e6f4d;
+}
+
+.rummi-icon {
+   color: #636363;
+}
+
+.cash-icon {
+   color: #358c41;
+}
+
+.spanish-icon {
+   color: #ff0000;
+}
+
+.bike-icon {
+   color: #0099ff;
+}
+
+.bw-icon {
+   color: #000;
+}
+
+.skills-table tr:hover .th-icon {
+   visibility: visible;
+}
+
+.html-icon {
+   color: #e34f26;
+}
+
+.css-icon {
+   color: #0052ff;
+}
+
+.js-icon {
+   color: #f7df1e;
+}
+
+.node-icon {
+   color: #339933;
+}
+
+.mongo-icon {
+   color: #589636;
+}
+
+.img-icon {
+   width: 29px;
+}
+
+.skills-table tr:hover {
+   color: #efe304;
+}
+
+.stars {
+   letter-spacing: .4rem;
+}
+
+/* projects */
+.project-thumbnail {
+   max-width: 60%;
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+.extra-project {
+   text-align: center;
+}
+
+.carousel-caption {
+   position: relative;
+   left: auto;
+   right: auto;
+}
+
+/* footer */
+.contact-heading {
+   padding: 7% 7% 2% 7%;
+   text-align: center;
+   font-size: 3rem;
+}
+
+.footerIconGroup {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-text {
+   color: #424242;
+   font-size: .7rem;
+}
+
+.footerLinks {
+   color: #424242;
+   text-align: center;
+   padding: 10px 25px;
+}
+
+.footer-icon {
+   font-size: 36px;
+   color: #000;
+}
+
+.instagram-icon:hover i {
+   background: linear-gradient(to top right, #ffdc80, #fcaf45, #f77737, #f56040, #fd1d1d, #e1306c, #c13584, #833ab4, #5851db, #405de6);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.github-icon:hover i {
+   color: #6e5494;
+}
+
+.facebook-icon:hover i {
+   color: #3b5998;
+}
+
+.email-icon:hover i {
+   color: #0052ff;
+}
+
+.flickrToggle {
+   background: black;
+   border-radius: 13%;
+}
+
+.flickrToggle::before,
+.flickrToggle::after {
+   content: "";
+   position: absolute;
+   top: 31.25%;
+   left: 10%;
+   width: 37.5%;
+   height: 37.5%;
+   background: white;
+   border-radius: 50%;
+}
+
+.flickrToggle::after {
+   left: auto;
+   right: 10%;
+   background: white;
+}
+
+.flickr-icon {
+   position: relative;
+   display: block;
+   text-indent: -999em;
+   box-shadow: 0 1px 4px rgba(000, 000, 000, 0.4),
+      inset 0 0 1px rgba(255, 255, 255, 0.4);
+   height: 33px;
+   width: 33px;
+}
+
+.flickr-icon-hover:hover .flickrToggle {
+   background: #fff;
+   background: linear-gradient(#fefefe, #d6dde1);
+}
+
+.flickr-icon-hover:hover .flickrToggle::before,
+.flickr-icon-hover:hover .flickrToggle::after {
+   background: #5c82c1;
+}
+
+.flickr-icon-hover:hover .flickrToggle::after {
+   background: #f92f93;
+}
