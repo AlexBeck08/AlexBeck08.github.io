@@ -302,6 +302,10 @@ thead {
    margin-bottom: 10px;
 }
 
+.tab-content {
+   width: 80%;
+}
+
 .flickr-icon-hover:hover .flickrToggle {
    background: #fff;
    background: linear-gradient(#fefefe, #d6dde1);
